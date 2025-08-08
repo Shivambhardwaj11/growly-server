@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://growly-client-a7cf.vercel.app',
+  origin: 'https://growly-client-a7cf-9o6u0cnaj-shivam-bhardwajs-projects-d06f6c68.vercel.app',
   methods: ['GET','POST','OPTIONS'],
 }));
 app.use(express.json());
